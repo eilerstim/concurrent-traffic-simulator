@@ -4,8 +4,11 @@
 
 This is the project for the fourth course in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213): Concurrency. 
 
-This project is a traffic simulation in which vehicles are moving along streets and are crossing intersections. Each intersection is equipped with a traffic light to simulate real world traffic, so that a maximum of one car can be in an intersection at a given time. A suitable and thread-safe communication protocol manages transmissions between vehicles and intersections. Concurrent programming principles (such as mutexes, locks and message queues) along with Modern C++ features are used to implement the traffic lights and integrate them properly in the code base. 
+This project is a traffic simulation in which vehicles are moving along streets and are crossing intersections. Each intersection is equipped with a traffic light to simulate real world traffic, so that a maximum of one car can be inside an intersection at a given time. A suitable and thread-safe communication protocol manages transmissions between vehicles and intersections. Concurrent programming principles (such as mutexes, locks and message queues) along with Modern C++ features are used to implement the traffic lights and integrate them properly in the code base.
 
+## Code Structure
+
+<img src="traffic_sim.png"/>
 
 ## Dependencies for Running Locally
 * cmake >= 2.8
